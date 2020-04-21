@@ -1,0 +1,23 @@
+{
+  "name": "Elkjøp EAN13 Barcode Generator",
+  "version": "1.0",
+  "description": "Generates barcodes on the product pages of elkjop.no.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.elkjop.no/product/*"
+      ],
+      "js": [
+        "src/JsBarcode.js",
+        "src/main.js"
+      ],
+      "css": [
+        "styles/main.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}

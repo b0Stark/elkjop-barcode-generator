@@ -1,0 +1,15 @@
+#barcode {
+    position: fixed;
+    z-index: 599;
+    bottom: 100px;
+    right: 15px;
+    width: 250px;
+}
+
+@media print
+{    
+    #barcode
+    {
+        display: none !important;
+    }
+}
