@@ -1,7 +1,7 @@
 {
-  "name": "Elkjøp EAN13 Barcode Generator",
-  "version": "1.0",
-  "description": "Generates barcodes on the product pages of elkjop.no.",
+  "name": "Elkjøp Barcode Generator",
+  "version": "1.1",
+  "description": "Generates EAN13/UPC barcodes on the product pages of elkjop.no.",
   "manifest_version": 2,
   "content_scripts": [
     {
